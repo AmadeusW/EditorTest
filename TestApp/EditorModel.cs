@@ -30,7 +30,7 @@ namespace TestApp
 
         internal IEnumerable<string> GetJobs()
         {
-            return Queued.Select(n => $"{n.Command.ToString()}({n.Param})");
+            return Queued.Select(n => $"{n.Command.ToString()}({n.Param})  ");
         }
     }
 }
